@@ -1,0 +1,33 @@
+.navbar-scroll{
+    position:fixed;
+    background: rgba(157, 155, 155, 0.457);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    left: 5%;
+    margin-top: 10px;
+    border-radius: 0.7em;
+    height: 12%;
+
+}
+
+/* Add this to your CSS file (Navbar.css) */
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    
+    border: 1px solid #ccc;
+    z-index: 50;
+  }
+  
+  .dropdown.open .dropdown-content {
+    display: block;
+  }
+  
+
