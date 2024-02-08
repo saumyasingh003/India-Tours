@@ -43,14 +43,14 @@ export default function  Carousel() {
       onSwiper={(swiper) => console.log(swiper)}
     >
     
-      <SwiperSlide><img className='h-[90vh] w-screen ' src={require("../assets/ram mandir.jpg")} alt="logo"/></SwiperSlide>
+      <SwiperSlide><img className='lg:h-[90vh] h-[70vh] w-screen ' src={require("../assets/ram mandir.jpg")} alt="logo"/></SwiperSlide>
       {/* <SwiperSlide><img className='sm:h-[90vh] w-screen ' src={require("../assets/beach1.jpg")} alt="logo"/></SwiperSlide> */}
-      <SwiperSlide><img className='h-[90vh] w-screen ' src={require("../assets/taj.jpg")} alt="logo"/></SwiperSlide>
-      <SwiperSlide><img className='h-[90vh] w-screen ' src={require("../assets/national-park.jpg")} alt="logo"/></SwiperSlide>
-      <SwiperSlide><img className='h-[90vh] w-screen ' src={require("../assets/lakshdweep.avif")} alt="logo"/></SwiperSlide>
-      <SwiperSlide><img className='h-[90vh] w-screen ' src={require("../assets/kashmir")} alt="logo"/></SwiperSlide>
-      <SwiperSlide><img className='h-[90vh] w-screen ' src={require("../assets/eco-tour.jpg")} alt="logo"/></SwiperSlide>
-       <SwiperSlide><img className='h-[90vh] w-screen ' src={require("../assets/skydive.jpg")} alt="logo"/></SwiperSlide>
+      <SwiperSlide><img className='lg:h-[90vh] w-screen h-[70vh]' src={require("../assets/taj.jpg")} alt="logo"/></SwiperSlide>
+      <SwiperSlide><img className='lg:h-[90vh] w-screen h-[70vh]' src={require("../assets/national-park.jpg")} alt="logo"/></SwiperSlide>
+      <SwiperSlide><img className='lg:h-[90vh] w-screen h-[70vh]' src={require("../assets/lakshdweep.avif")} alt="logo"/></SwiperSlide>
+      <SwiperSlide><img className='lg:h-[90vh] w-screen h-[70vh]' src={require("../assets/kashmir")} alt="logo"/></SwiperSlide>
+      <SwiperSlide><img className='lg:h-[90vh] w-screen h-[70vh]' src={require("../assets/eco-tour.jpg")} alt="logo"/></SwiperSlide>
+       <SwiperSlide><img className='lg:h-[90vh] w-screen h-[70vh]' src={require("../assets/skydive.jpg")} alt="logo"/></SwiperSlide>
       
     </Swiper>
   );

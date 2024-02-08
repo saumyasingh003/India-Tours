@@ -14,14 +14,14 @@ const Eco = () => {
           data-aos="zoom-out-left"
           style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
           className="text-center 
-      text-4xl relative top-8 mb-10  font-extrabold text-[#1e1c46] font-sans"
+      lg:text-4xl text-3xl relative top-8 mb-10  font-extrabold text-[#1e1c46] font-sans"
         >
           Nature's Symphony: Embarking on an Eco-Adventure
         </h1>
         <div className="relative top-5 px-4  mb-10">
           <h3 className="text-2xl font-bold  sm:text-3xl dark:text-gray-50"></h3>
           <p
-            className="flex  text-center mx-10  mt-3 text-lg dark:text-gray-400"
+            className="flex  text-center lg:mx-10  mt-3 lg:text-lg text-sm dark:text-gray-400"
             style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
           >
             Embark on a journey into the heart of sustainability with
@@ -41,7 +41,7 @@ const Eco = () => {
         </div>
 
         <div>
-          <div className="dark:bg-gray-800 dark:text-gray-100">
+          <div className="dark:bg-gray-800 dark:text-gray-100 ">
             <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
               <a
                 rel="noopener noreferrer"
@@ -49,12 +49,12 @@ const Eco = () => {
                 target="_blank"
                 className="block max-w-sm gap-3 mx-auto
 		 sm:max-w-full group hover:no-underline shadow-2xl rounded-md focus:no-underline 
-		 dark:bg-gray-900"
+		 dark:bg-gray-900 relative top-64"
               >
                 <img
                   src={require("../assets/agumbe.jpg")}
                   alt=""
-                  className=" w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500"
+                  className=" w-screen h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500 "
                 />
               </a>
             </div>
@@ -63,18 +63,18 @@ const Eco = () => {
             <h1
               data-aos="zoom-in-up"
               style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
-              className="text-center text-5xl relative  mb-10 font-extrabold text-[#356179] font-sans"
+              className="text-center lg:text-4xl text-3xl relative  mb-10 font-extrabold text-[#356179] font-sans"
             >
               Agumbe Rainforest, Karnataka
             </h1>
           </div>
-          <div className=" relative top-1 align-right mb-10 px-10">
+          <div className=" relative top-1 align-right mb-10 lg:px-10 px-2">
             <h4
               className="text-xl font-bold tracki sm:text-3xl 
              dark:text-gray-50"
             ></h4>
             <p
-              className="flex w-full text-center  mt-3 text-lg 
+              className="flex w-full text-center  mt-3 lg:text-lg  text-sm
               dark:text-gray-400"
               style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
             >
@@ -107,13 +107,13 @@ const Eco = () => {
                 target="_blank"
                 className="block max-w-sm gap-3 mx-auto
 		 sm:max-w-full group hover:no-underline shadow-2xl rounded-md focus:no-underline 
-		 dark:bg-gray-900"
+		 dark:bg-gray-900 relative top-64"
               >
                 <img
                   data-aos="fade-right"
                   src={require("../assets/khanga.jpg")}
                   alt=""
-                  className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500"
+                  className="object-cover w-screen h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500"
                 />
               </a>
             </div>
@@ -122,15 +122,15 @@ const Eco = () => {
             <h1
               data-aos="zoom-in-up"
               style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
-              className="text-center text-5xl relative  mb-10 font-extrabold text-[#356179] font-sans"
+              className="text-center lg:text-5xl text-3xl relative  mb-10 font-extrabold text-[#356179] font-sans"
             >
               Khangchendzonga National Park, Sikkim
             </h1>
           </div>
-          <div className=" relative top-1 align-right mb-10 px-10">
+          <div className=" relative top-1 align-right mb-10 lg:px-10 px-2">
             <h4 className="text-xl font-bold tracki sm:text-3xl  dark:text-gray-50"></h4>
             <p
-              className="flex w-full text-center  mt-3 text-lg dark:text-gray-400"
+              className="flex w-full text-center  mt-3 lg:text-lg text-sm dark:text-gray-400"
               style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
             >
               Nestled in the eastern Himalayas of the Indian state of Sikkim,
@@ -163,13 +163,13 @@ const Eco = () => {
                 target="_blank"
                 className="block max-w-sm gap-3 mx-auto
 		 sm:max-w-full group hover:no-underline shadow-2xl rounded-md focus:no-underline 
-		 dark:bg-gray-900"
+		 dark:bg-gray-900 relative top-64"
               >
                 <img
                   data-aos="fade-right"
                   src={require("../assets/hemis.jpg")}
                   alt=""
-                  className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500"
+                  className="object-cover w-screen h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500 "
                 />
               </a>
             </div>
@@ -178,15 +178,15 @@ const Eco = () => {
             <h1
               data-aos="zoom-in-up"
               style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
-              className="text-center text-5xl relative  mb-10 font-extrabold text-[#356179] font-sans"
+              className="text-center lg:text-5xl text-3xl relative  mb-10 font-extrabold text-[#356179] font-sans"
             >
               Hemis National Park, Ladakh
             </h1>
           </div>
           <div className=" relative top-1 align-right mb-10 px-10">
-            <h4 className="text-xl font-bold tracki sm:text-3xl  dark:text-gray-50"></h4>
+          
             <p
-              className="flex w-full text-center  mt-3 text-lg dark:text-gray-400"
+              className="flex w-full text-center  mt-3 lg:text-lg text-sm dark:text-gray-400"
               style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
             >
               Hemis National Park, situated in the high-altitude desert
@@ -217,13 +217,13 @@ const Eco = () => {
                 target="_blank"
                 className="block max-w-sm gap-3 mx-auto
 		 sm:max-w-full group hover:no-underline shadow-2xl rounded-md focus:no-underline 
-		 dark:bg-gray-900"
+		 dark:bg-gray-900 relative top-64"
               >
                 <img
                   data-aos="fade-right"
                   src={require("../assets/silent.jpg")}
                   alt=""
-                  className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500"
+                  className="object-cover w-screen h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500"
                 />
               </a>
             </div>
@@ -232,15 +232,15 @@ const Eco = () => {
             <h1
               data-aos="zoom-in-up"
               style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
-              className="text-center text-5xl relative  mb-10 font-extrabold text-[#356179] font-sans"
+              className="text-center lg:text-5xl text-3xl relative  mb-10 font-extrabold text-[#356179] font-sans"
             >
               Silent Valley National Park, Kerala
             </h1>
           </div>
-          <div className=" relative top-1 align-right mb-10 px-10">
+          <div className=" relative top-1 align-right mb-10 lg:px-10 px-2">
             <h4 className="text-xl font-bold tracki sm:text-3xl  dark:text-gray-50"></h4>
             <p
-              className="flex w-full text-center  mt-3 text-lg dark:text-gray-400"
+              className="flex w-full text-center  mt-3 lg:text-lg text-sm dark:text-gray-400"
               style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
             >
               Silent Valley National Park, nestled in the Western Ghats of
@@ -271,13 +271,13 @@ const Eco = () => {
                 target="_blank"
                 className="block max-w-sm gap-3 mx-auto
 		                 sm:max-w-full group hover:no-underline shadow-2xl rounded-md focus:no-underline 
-		              dark:bg-gray-900"
+		              dark:bg-gray-900 relative top-64"
               >
                 <img
                   data-aos="fade-right"
                   src={require("../assets/tirthan.jpg")}
                   alt=""
-                  className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500"
+                  className=" w-screen h-64 rounded sm:h-[26rem] lg:col-span-7 dark:bg-gray-500 "
                 />
               </a>
             </div>
@@ -286,15 +286,15 @@ const Eco = () => {
             <h1
               data-aos="zoom-in-up"
               style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
-              className="text-center text-5xl relative  mb-10 font-extrabold text-[#356179] font-sans"
+              className="text-center lg:text-5xl text-3xl relative  mb-10 font-extrabold text-[#356179] font-sans"
             >
               Tirthan Valley, Himachal Pradesh
             </h1>
           </div>
-          <div className=" relative top-1 align-right mb-10 px-10">
+          <div className=" relative top-1 align-right mb-10 lg:px-10 px-2">
             <h4 className="text-xl font-bold tracki sm:text-3xl  dark:text-gray-50"></h4>
             <p
-              className="flex w-full text-center  mt-3 text-lg dark:text-gray-400"
+              className="flex w-full text-center  mt-3 lg:text-lg text-sm dark:text-gray-400"
               style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
             >
               Nestled in the lap of the Himalayas, Tirthan Valley in Himachal
