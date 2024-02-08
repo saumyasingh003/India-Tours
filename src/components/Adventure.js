@@ -15,7 +15,7 @@ const Adventure = () => {
       >
         Peak Of Thrill
       </h1>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10 mx-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4 mb-10 mx-8">
         <div class="relative overflow-hidden group">
           <img
             class="w-full h-64 rounded-lg transition-opacity duration-300 group-hover:opacity-80"
@@ -78,11 +78,11 @@ const Adventure = () => {
         </div>
       </div>
 
-      <div className="relative top-5  px-16 mb-10">
-        <h3 className="text-2xl font-bold sm:text-3xl dark:text-gray-50"></h3>
+      <div className="relative top-5  lg:px-16 px-4 mb-10">
+       
         <p
-          className="flex w-full   text-justify  mt-3 text-lg dark:text-gray-400"
-          style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
+          className="flex w-full  mt-3 lg:text-lg text-sm text-justify  "
+         
         >
           Adventure tourism in India is a dynamic and rapidly growing sector,
           attracting adventure enthusiasts with its diverse landscapes and an
@@ -107,7 +107,7 @@ const Adventure = () => {
       </div>
       <h1
         data-aos="zoom-out-left"
-        className="text-center text-5xl mt-20 mb-10 font-extrabold text-[#18305b] font-sans"
+        className="text-center lg:text-5xl text-3xl md:text-4xl mt-20 mb-10 font-extrabold text-[#18305b] font-sans"
       >
         Is Lakshadweep your next destination?
       </h1>
@@ -123,15 +123,15 @@ const Adventure = () => {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106880.727006203!2d70.28887199993514!3d9.980098603092486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b9fcd65cae4973d%3A0x17bd7416842ce9aa!2sLakshadweep!5e1!3m2!1sen!2sin!4v1707063168263!5m2!1sen!2sin"
           width="900"
           height="450"
-          className="border-0 mx-10 mb-16  rounded-lg"
+          className="border-0 lg:mx-10 mb-16  rounded-lg mx-2 shadow-md "
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
       <p
-        className="flex mx-20   text-justify  mt-3 text-lg dark:text-gray-400"
-        style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
+        className="flex lg:mx-20 mx-4   text-justify  mt-3 lg:text-lg text-sm dark:text-gray-400"
+      
       >
         Emerging Adventure Destination: Lakshadweep is emerging as a
         sought-after adventure destination in India, captivating travelers with
@@ -161,7 +161,7 @@ const Adventure = () => {
  
 <div class="grid gap-4  mt-20 mb-10 mx-4">
   
-    <div class="grid grid-cols-5 gap-4">
+    <div class="grid lg:grid-cols-5 grid-cols-3 gap-2">
         <div>
             <img class="h-full max-w-full rounded-lg"  src={require("../assets/laksha1.jpg")} alt=""/>
         </div>

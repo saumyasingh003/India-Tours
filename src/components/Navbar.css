@@ -4,7 +4,7 @@
     backdrop-filter: blur(10px);
     width: 90%;
     left: 5%;
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 0.7em;
     height: 12%;
 
@@ -28,6 +28,10 @@
   
   .dropdown.open .dropdown-content {
     display: block;
+  }
+  .menu-items:hover{
+    background-color: rgba(80, 126, 183, 0.763);
+    backdrop-filter: blur(6px);
   }
   
 

@@ -8,22 +8,22 @@ const Medical = () => {
     AOS.refresh();
   }, []);
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-hidden">
       <div
-        className="relative overflow-x-hidden h-full shadow-gray-800"
+        className="relative overflow-hidden  h-full shadow-gray-800"
       >
         <h1
           data-aos="zoom-out-left"
           style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
           className="text-center 
-      text-4xl relative top-8 mb-10 font-extrabold text-[#356179] font-sans"
+      lg:text-4xl text-2xl relative top-8 mb-10 font-extrabold text-[#356179] font-sans"
         >
           India Healing Journeys: Your Path to Wellness
         </h1>
-        <div className="relative top-5  px-16 mb-10">
+        <div className="relative top-5  lg:px-16 px-4 mb-10">
           <h3 className="text-2xl font-bold sm:text-3xl dark:text-gray-50"></h3>
           <p
-            className="flex w-full   text-justify  mt-3 text-lg dark:text-gray-400"
+            className="flex w-full   text-justify  mt-3 lg:text-lg text-md dark:text-gray-400"
             style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
           >
             Embark on a transformative journey with India Healing Journeys,
@@ -43,8 +43,8 @@ const Medical = () => {
         </div>
 
         <section className=" overflow-x-hidden dark:bg-gray-800 dark:text-gray-100">
-          <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div className=" max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div>
                 <img
                   style={{ boxShadow: "2px 2px 15px black" }}
@@ -76,7 +76,7 @@ const Medical = () => {
           data-aos="fade-down-right overflow-x-hidden"
           className="dark:bg-gray-800 dark:text-gray-100 mb-10"
         >
-          <div className="container max-w-4xl px-10 py-6 bg-white mx-auto rounded-lg shadow-sm dark:bg-gray-900">
+          <div className=" max-w-4xl px-10 py-6 bg-white mx-auto rounded-lg shadow-sm dark:bg-gray-900">
             <div className="flex items-center justify-between">
               <span className="text-sm dark:text-gray-400">Feb 8 ,2024</span>
             </div>
@@ -127,7 +127,7 @@ const Medical = () => {
           data-aos="fade-up-left"
           className="dark:bg-gray-800 dark:text-gray-100 mb-10"
         >
-          <div className="container max-w-4xl px-10 py-6 bg-white mx-auto rounded-lg shadow-sm dark:bg-gray-900">
+          <div className=" max-w-4xl px-10 py-6 bg-white mx-auto rounded-lg shadow-sm dark:bg-gray-900">
             <div className="flex items-center justify-between">
               <span className="text-sm dark:text-gray-400">Feb 8 ,2024</span>
             </div>
@@ -178,7 +178,7 @@ const Medical = () => {
           data-aos="fade-down-right"
           className="dark:bg-gray-800 dark:text-gray-100 mb-10"
         >
-          <div className="container max-w-4xl px-10 py-6 bg-white mx-auto rounded-lg shadow-sm dark:bg-gray-900">
+          <div className=" max-w-4xl px-10 py-6 bg-white mx-auto rounded-lg shadow-sm dark:bg-gray-900">
             <div className="flex items-center justify-between">
               <span className="text-sm dark:text-gray-400">Feb 8 ,2024</span>
             </div>
@@ -228,7 +228,7 @@ const Medical = () => {
           data-aos="fade-up-left"
           className="dark:bg-gray-800 dark:text-gray-100 mb-10"
         >
-          <div className="container max-w-4xl px-10 py-6 bg-white mx-auto rounded-lg shadow-sm dark:bg-gray-900">
+          <div className=" max-w-4xl px-10 py-6 bg-white mx-auto rounded-lg shadow-sm dark:bg-gray-900">
             <div className="flex items-center justify-between">
               <span className="text-sm dark:text-gray-400">Feb 8, 2024</span>
             </div>
