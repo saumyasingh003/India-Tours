@@ -31,7 +31,7 @@ const Navbar = () => {
       <nav
         className={
           scroll
-            ? "navbar-scroll  z-30 delay-50"
+            ? "navbar-scroll  z-30 delay-200 transition-all ease-linear"
             : "bg-[#1F2937] text-white border-gray-200 dark:bg-gray-900"
         }
       >
