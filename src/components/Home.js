@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className="overflow-x-hidden">
       <div>
-        <div className="relative shadow-xl lg:h-auto h-fit">
+        <div className="relative shadow-xl lg:h-auto h-[70vh]">
           <Carousel />
         </div>
       </div>

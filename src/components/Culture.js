@@ -11,14 +11,14 @@ function Culture() {
 
   return (
     <div className="overflow-x-hidden">
-      <div className="relative overflow-x-hidden h-full shadow-gray-800 mx-6">
+      <div className="relative overflow-x-hidden h-full shadow-gray-800 lg:mx-6">
         <div
           style={{ position: "relative", textAlign: "center" }}
           className="relative mb-20"
         >
           <div style={{ position: "relative" }}>
             <img
-              className="sm:h-[80vh] w-screen rounded-xl"
+              className="sm:h-[80vh] h-[40vh] w-screen lg:rounded-xl"
               src={require("../assets/ganga.jpg")}
               alt=""
             />
@@ -31,6 +31,7 @@ function Culture() {
                 height: "100%",
                 content: "''",
                 backgroundColor: "rgba(0, 0, 0, 0.5)",
+                borderRadius:"10px",
                 zIndex: 1,
               }}
             ></div>
@@ -49,10 +50,7 @@ function Culture() {
             <h1
               data-aos="zoom-out-left"
               data-aos-duration="3000"
-              style={{
-                
-                fontSize: "3rem",
-              }}
+             className="lg:text-4xl text-2xl"
             >
               Immersive Journeys: Exploring the Rich Tapestry of Indian Cultural
             </h1>
@@ -61,7 +59,7 @@ function Culture() {
       </div>
 
       <p
-        className="flex mx-20 text-justify mt-3 text-lg dark:text-gray-400"
+        className="flex lg:mx-20 mx-5 text-justify mt-3 lg:text-lg text-md dark:text-gray-400"
         
       >
         India's UNESCO World Heritage Sites present a mesmerizing blend of
@@ -84,12 +82,12 @@ function Culture() {
 
       <h1
         data-aos="zoom-out-left"
-        className="text-center text-4xl mt-20 mb-10 font-extrabold text-[#18305b] font-sans"
+        className="text-center lg:text-4xl text-3xl mt-20 mb-10 font-extrabold text-[#18305b] font-sans"
       >
         Which cultural destination are you planning to visit next ?
       </h1>
 
-      <div className="flex justify-center  mb-10 mt-10 space-x-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center  mb-10 mt-10 ">
         <div className="relative flex flex-col text-gray-700 bg-gray-100 shadow-md bg-clip-border rounded-xl w-80">
           <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-64">
             <img
@@ -160,7 +158,7 @@ function Culture() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center  mb-10 mt-10 space-x-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center  mb-10 mt-10 ">
         <div className="relative flex flex-col text-gray-700 bg-gray-100 shadow-md bg-clip-border rounded-xl w-80">
           <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-64">
             <img
@@ -232,7 +230,7 @@ function Culture() {
         </div>
       </div>
       <p
-        className="flex mx-20  mb-10 text-justify mt-3 text-lg dark:text-gray-400"
+        className="flex lg:mx-20 mx-5  mb-10 text-justify mt-3 lg:text-lg text-md dark:text-gray-400"
         
       >
         Embarking on a cultural journey through India unveils a fascinating

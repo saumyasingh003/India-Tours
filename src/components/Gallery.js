@@ -22,7 +22,7 @@ const Gallery = () => {
           <a data-aos="zoom-in-up" href="/Beeches">
             <img
               style={{ boxShadow: "2px 2px 15px black" }}
-              className="object-cover w-full cursor-pointer hover:animate-pulse hover:h-[44vh] hover:w-[40vw] transition-all duration-75 ease-in-out  h-[40vh] rounded-xl"
+              className="object-cover w-full cursor-pointer hover:animate-pulse hover:h-[43vh] lg:hover:w-[40vw] transition-all duration-75 ease-in-out  h-[40vh] rounded-xl"
               src={require("../assets/beach.jpg")}
               alt=""
             />
@@ -34,7 +34,7 @@ const Gallery = () => {
           <a data-aos="zoom-in-up" href="/Culture">
             <img
               style={{ boxShadow: "2px 2px 15px black" }}
-              className="object-cover w-full cursor-pointer hover:animate-pulse hover:h-[43vh] hover:w-[40vw] transition-all duration-75 ease-in-out  h-[40vh] rounded-xl"
+              className="object-cover w-full cursor-pointer hover:animate-pulse hover:h-[43vh] lg:hover:w-[40vw] transition-all duration-75 ease-in-out  h-[40vh] rounded-xl"
               src={require("../assets/culture.jpg")}
               alt=""
             />
@@ -46,7 +46,7 @@ const Gallery = () => {
           <a data-aos="zoom-in-up" href="/Adventure">
             <img
               style={{ boxShadow: "2px 2px 15px black" }}
-              className="object-cover w-full cursor-pointer hover:animate-pulse hover:h-[43vh] hover:w-[40vw] transition-all duration-75 ease-in-out  h-[40vh] rounded-xl"
+              className="object-cover w-full cursor-pointer hover:animate-pulse hover:h-[43vh] lg:hover:w-[40vw] transition-all duration-75 ease-in-out  h-[40vh] rounded-xl"
               src={require("../assets/adventure.jpg")}
               alt=""
             />
@@ -61,7 +61,7 @@ const Gallery = () => {
           <a data-aos="zoom-in-up" href="/Eco">
             <img
               style={{ boxShadow: "2px 2px 15px black" }}
-              className="object-cover w-full cursor-pointer hover:animate-pulse hover:h-[43vh] hover:w-[40vw] transition-all duration-75 ease-in-out  h-[40vh] rounded-xl"
+              className="object-cover w-full cursor-pointer hover:animate-pulse hover:h-[43vh] lg:hover:w-[40vw] transition-all duration-75 ease-in-out  h-[40vh] rounded-xl"
               src={require("../assets/eco.jpg")}
               alt=""
             />
@@ -73,7 +73,7 @@ const Gallery = () => {
           <a data-aos="zoom-in-up" href="/Medical">
             <img
               style={{ boxShadow: "2px 2px 15px black" }}
-              className="object-cover w-full cursor-pointer hover:animate-pulse h-[40vh] rounded-xl"
+              className="object-cover w-full cursor-pointer hover:animate-pulse hover:h-[43vh] lg:hover:w-[40vw] transition-all duration-75 ease-in-out  h-[40vh] rounded-xl"
               src={require("../assets/medical.jpg")}
               alt=""
             />
@@ -85,7 +85,7 @@ const Gallery = () => {
           <a data-aos="zoom-in-up" href="/Wildlife">
             <img
               style={{ boxShadow: "2px 2px 15px black" }}
-              className="object-cover w-full cursor-pointer hover:animate-pulse h-[40vh] rounded-xl"
+              className="object-cover w-full cursor-pointer hover:animate-pulse hover:h-[43vh] lg:hover:w-[40vw] transition-all duration-75 ease-in-out  h-[40vh] rounded-xl"
               src={require("../assets/wildlife.jpg")}
               alt=""
             />
