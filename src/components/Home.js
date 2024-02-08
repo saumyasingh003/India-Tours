@@ -25,8 +25,8 @@ const Home = () => {
         <h1
           data-aos="zoom-out-left"
           style={{ fontFamily: " 'Bricolage Grotesque', sans-serif" }}
-          className=" lg:text-6xl md:text-4xl text-2xl first-letter: text-gray-100 mb-3"
-          id="typewriter"
+          className=" lg:text-6xl md:text-4xl text-2xl first-letter: text-gray-100 mb-6 relative bottom-10"
+         
         >
           <Typewriter
             options={{
@@ -55,7 +55,7 @@ const Home = () => {
               >
                 <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
               </svg>
-              <span class="text text-blue-300 font-bold hover:text-white">
+              <span class="text text-white font-bold hover:text-white">
                 Explore Now
               </span>
               <span class="circle"></span>

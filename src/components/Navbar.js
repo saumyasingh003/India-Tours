@@ -37,7 +37,7 @@ const Navbar = () => {
       >
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 ">
           <a  href="/#" className="flex items-center">
-          <div className="bg-white rounded-[100px]  ">
+          <div className="bg-white rounded-[100px] max-[768px]:ml-2 ">
 
             <img
               src={require("../assets/logo.jpg")}
@@ -46,7 +46,7 @@ const Navbar = () => {
             />
           </div>
             <span
-              className="self-center ml-3 text-2xl font-semibold whitespace-nowrap dark:text-white"
+              className="self-center ml-3 lg:text-2xl text-xl font-semibold whitespace-nowrap dark:text-white"
             >
               <Typewriter
                 options={{
@@ -60,28 +60,28 @@ const Navbar = () => {
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            onClick={toggleMobileMenu} // Add this line to toggle mobile menu
+            onClick={toggleMobileMenu} 
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
-            <BsList size={24} /> {/* Hamburger icon */}
+            <BsList size={24} /> 
           </button>
           <div
             className={`${
               isMobileMenuOpen ? "block" : "hidden"
-            } md:flex w-full  md:w-auto`} // Show/hide mobile menu
+            } md:flex w-full  md:w-auto`} 
             id="navbar-default"
           >
             <ul
               
-              className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+              className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-10 md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
             >
-              <li className="hover:tracking-wider">
+              <li className="">
                 <a
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-white text-xl bg-blue-900 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-900"
-                  aria-current="page"
+                  className="menu-items  py-2 pl-3  text-white text-xl bg-blue-900 rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-900 hover:tracking-normal md:mr-3 hover:p-3"
+                
                 >
                   Home
                 </a>
@@ -89,7 +89,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="/About"
-                  className="block py-2  px-1 pl-3 pr-4 text-white text-xl rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="menu-items py-2  px-1 pl-3 pr-4 text-white text-xl rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white hover:p-3 md:dark:hover:bg-transparent hover:tracking-normal"
                 >
                   About
                 </a>
@@ -104,7 +104,7 @@ const Navbar = () => {
               </li> */}
             </ul>
             <div
-              className={`dropdown px-5 flex text-white text-xl rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ${
+              className={`dropdown px-5 flex text-white text-xl rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent lg:ml-6 ${
                 isDropdownOpen ? "open" : ""
               }`}
             >

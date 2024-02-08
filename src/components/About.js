@@ -11,7 +11,7 @@ const About = () => {
     <div className="overflow-x-hidden">
       <section class="  pb-12 mx-10 lg:pb-[90px] dark:bg-dark">
         <div class=" mx-auto">
-          <div class="flex flex-wrap items-center justify-between -mx-4">
+          <div class="flex flex-wrap  items-center justify-between -mx-4">
             <div class="w-full px-4 lg:w-6/12">
               <div class="flex items-center -mx-3 sm:-mx-4">
                 <div class="w-full px-3 sm:px-4  ">
@@ -19,30 +19,30 @@ const About = () => {
                     <img
                       src={require("../assets/about3.jpg")}
                       alt=""
-                      class="w-full h-[24em] rounded-2xl"
+                      class="w-full lg:h-[24em] h-40 rounded-2xl"
                     />
                   </div>
                   <div class="py-3 sm:py-4">
                     <img
                       src={require("../assets/about2.jpg")}
                       alt=""
-                      class="w-full h-[24rem] rounded-2xl"
+                      class="w-full lg:h-[24em] h-40 rounded-2xl"
                     />
                   </div>
                 </div>
-                <div class="w-full px-3 sm:px-4">
+                <div class="w-full  sm:px-4">
                   <div class="relative z-10 my-4">
                     <img
                       src={require("../assets/about1.jpg")}
                       alt=""
-                      class="w-full h-[28rem] rounded-2xl"
+                      class="lg:w-full w-48 lg:h-[28rem] h-52 rounded-2xl"
                     />
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="w-full px-4 lg:w-1/2 relative lg:bottom-20 ">
+            <div class="w-full lg:px-4 px-0 lg:w-1/2 relative lg:bottom-20 ">
               <div class="mt-10 lg:mt-0">
                
                 <h2 class="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
@@ -76,19 +76,17 @@ const About = () => {
     <div className="relative bottom-10">
 
       <h1
-        style={{
-          fontSize: "3rem",
-        }}
+      className="text-xl lg:text-5xl"
       >
         About The Developer
       </h1>
 
       <div class="  gap-6 flex mb-10 mt-5 items-center justify-center">
-        <div class="bg-gray-100 h-[40vh] w-[50vw] items-center relative shadow-xl overflow-hidden hover:shadow-2xl group rounded-xl p-5 transition-all duration-500 transform">
-          <div class="flex items-center gap-4">
+        <div class="bg-gray-100 lg:h-[40vh] lg:w-[50vw] items-center relative shadow-xl overflow-hidden hover:shadow-2xl group rounded-xl p-5 transition-all duration-500 transform max-[768px]:mx-5">
+          <div class="flex lg:flex-row flex-col items-center gap-4">
             <img
               src= {require("../assets/sam.jpg")}
-              class="w-32 group-hover:w-36 group-hover:h-32 h-28 object-center object-cover rounded-full transition-all duration-500 delay-500 transform"
+              class="w-32 lg:group-hover:w-36 lg:group-hover:h-32 lg:h-28 h-32 object-center object-cover rounded-full transition-all duration-500 delay-500 transform"
               alt=""
             />
             <div class="w-fit transition-all transform duration-500">
@@ -97,7 +95,7 @@ const About = () => {
               <a class="text-xs text-gray-500 dark:text-gray-200 group-hover:opacity-100 opacity-0 transform transition-all delay-300 duration-500">
                 saumyasingh98982@gmail.com
               </a>
-              <p>
+              <p className="lg;text-md text-sm">
                 Hello, I'm Saumya Singh, pursuing B.Tech (CSE) at Amity
                 University Patna. I'm passionate about leveraging technology to
                 solve complex problems and aspire to utilize my technical skills
