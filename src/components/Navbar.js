@@ -8,9 +8,7 @@ const Navbar = () => {
   const [scroll, setScroll] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  useEffect(() => {
-    document.title = "Incredible India";
-  });
+
 
   window.addEventListener("scroll", () => {
     window.scrollY >= 80 ? setScroll(true) : setScroll(false);
